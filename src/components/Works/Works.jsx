@@ -1,10 +1,10 @@
 import React from 'react'
-import "./Works"
+import "./Works.scss"
 
-export default function works ()
+export default function Works ()
 {
     return (
-        <div className="works">
+        <div className="works" id="works">
             <h1>Works to be shown here</h1>
         </div>
     )

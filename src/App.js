@@ -11,12 +11,12 @@ function App ()
     <div className="App">
       <Topbar />
       <div className="sections">
-        <Route exact path='/' component={Intro} />
+        {/* <Route exact path='/' component={Intro} />
         <Route exact path='/portfolio' component={Portfolio} />
-        <Route exact path='/works' component={Works} />
-        {/* <Intro />
+        <Route exact path='/works' component={Works} /> */}
+        <Intro />
         <Portfolio />
-        <Works /> */}
+        <Works />
       </div>
 
     </div>
